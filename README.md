@@ -9,7 +9,8 @@
 
 ### 运行
   注意在每个终端需要source两个工作空间 navigation 和 clean_robot的devel/setup.bash
-  roslaunch clean_robot auto_slam.launch为自动探索；roslaunch clean_robot clean_work.launch为弓型清扫。弓型清扫中有一些配置：
+ 
+​ roslaunch clean_robot auto_slam.launch为自动探索；roslaunch clean_robot clean_work.launch为弓型清扫。弓型清扫中有一些配置：
 
 ​	~/clean_robot/src/config/cleaning_costmap_params.yaml中可以设置弓型的cell，越小弓型越稠密。
 
