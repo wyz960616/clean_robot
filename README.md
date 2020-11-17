@@ -3,7 +3,9 @@
 ### 依赖的navigation库
   https://github.com/wyz960616/clean_robot_navigations.git
   将整体的文件放入 /home/用户名/navigation/src/下，并进行catkin_make
-  编译安装本库到 /home/用户名/clean_robot/src/下，并进行catkin_make
+  
+### 安装本项目
+ 编译安装本库到 /home/用户名/clean_robot/src/下，并进行catkin_make
 
 ### 运行
   注意在每个终端需要source两个工作空间 navigation 和 clean_robot的devel/setup.bash
